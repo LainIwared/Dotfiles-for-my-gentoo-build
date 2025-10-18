@@ -1,0 +1,124 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "enter your own link to custom logo here should start with /home",
+    "width": 40
+  },
+  "modules": [
+    {
+      "type": "command",
+      "key": "  ",
+      "keyColor": "blue",
+      "text": "splash=$(hyprctl splash);echo $splash"
+    },
+    "break",
+    {
+      "type": "title",
+      "key": "  ",
+      "format": "{6} {7} {8}"
+    },
+    {
+      "type": "custom",
+      "format": "┌────────────── Hardware Information ───────────────────────┐",
+      "outputColor": "#D1ED1A"
+    },
+    {
+      "type": "chassis",
+      "key": "  󰇺 Chassis",
+      "format": "{1} {2} {3}",
+      "keyColor": "#8204C4"
+    },
+    {
+      "type": "cpu",
+      "format": "{1} | {7} | {3}",
+      "key": "   CPU",
+      "keyColor": "#8204C4"
+    },
+    {
+      "type": "gpu",
+      "format": "{2} {12}",
+      "key": "  󰊴 GPU",
+      "keyColor": "#8204C4"
+    },
+    {
+      "type": "gpu",
+      "format": "{3}",
+      "key": "   GPU Driver",
+      "keyColor": "#8204C4"
+    },
+    {
+      "type": "memory",
+      "key": "   Memory ",
+      "keyColor": "#8204C4"
+    },
+    {
+      "type": "display",
+      "key": "  󰍹 Display",
+      "format": "{1}x{2} @ {3}Hz [{7}]",
+      "keyColor": "#8204C4"
+    },
+    {
+      "type": "custom",
+      "format": "├────────────── Software Information ───────────────────────┤"
+    },
+    {
+      "type": "os",
+      "key": "   OS",
+      "format": "{2}",
+      "keyColor": "blue"
+    },
+    {
+      "type": "kernel",
+      "key": "   Kernel",
+      "format": "{2}",
+      "keyColor": "blue"
+    },
+    {
+      "type": "packages",
+      "key": "  󰏗 Packages",
+      "keyColor": "blue"
+    },
+    {
+      "type": "wm",
+      "key": "  󱗃 WM",
+      "format": "{2}",
+      "keyColor": "blue"
+    },
+    {
+      "type": "terminal",
+      "key": "   Terminal",
+      "keyColor": "blue"
+    },
+    {
+      "type": "custom",
+      "format": "├───────────────── OS Information ──────────────────────────┤"
+    },
+    {
+      "type": "disk",
+      "key": "  󱦟 OS Age ",
+      "folders": "/",
+      "keyColor": "red",
+      "format": "{days} days"
+    },
+    {
+      "type": "uptime",
+      "key": "  󱫐 Uptime ",
+      "keyColor": "red"
+    },
+    {
+      "type": "initsystem",
+      "key": "   Initsystem",
+      "keyColor": "red"
+      },
+    {
+      "type": "custom",
+      "format": "└───────────────────────────────────────────────────────────┘"
+    },
+    {
+      "type": "custom",
+      "format": "",
+      "outputColor": "magenta"
+    },
+      "break"
+    ]
+  }
