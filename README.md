@@ -1,5 +1,11 @@
 this repo includes all my handydandy useful configs and apps i use, i would like to add that the taskbar transparancy is a kde applet called panel transparancy toggle this is what allowed me to have the transparant look. 
-I would also like to add that in most DEs' if you right click on the application launcher you can then add your own image to be displayed.
+I would also like to add that in most DEs' if you right click on the application launcher you can then add your own image to be displayed. 
+For rofi i will credit the person who made it you can find them here: https://github.com/davatorium/rofi
+
+For kew you can find it here but i will add
+for gentoo you need to use the GURU repository so i will also add this as a link to the man page: 
+https://github.com/ravachol/kew
+https://wiki.gentoo.org/wiki/Project:GURU/Information_for_End_Users
 
 <img width="1920" height="1200" alt="Screenshot_20251004_135641" src="https://github.com/user-attachments/assets/c44619b1-3f29-4d9a-aa34-1e91014eaba1" />
 
